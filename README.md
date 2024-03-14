@@ -19,15 +19,15 @@ The purpose of this project is to showcase an Angular Project with a weather for
   - For Auth0, you may modify the following in your `environment.ts` and `environment.prod.ts`:
     ```bash
     auth: {
-      domain: 'dev-e8t4tu34kbulhsi7.us.auth0.com',
-      clientId: 'lPsrNekzfshAocDX0pke2dAzxFJBpx7A'
+      domain: 'AUTH0_DOMAIN',
+      clientId: 'AUTH0_CLIENT_ID'
     },
     ```
 - [OpenWeather](https://openweathermap.org)
   - For OpenWeather, you may modify the following in your `environment.ts` and `environment.prod.ts`:
     ```bash
     weather: {
-      key: '106bf8b6c1f846e220f9b342333a8bbd',
+      key: 'OPEN_WEATHER_KEY',
       units: `imperial`
     }
     ```
